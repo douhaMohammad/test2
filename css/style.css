@@ -1,0 +1,70 @@
+/* global rule */
+
+*{
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+/* small */
+@media (min-width:768px)
+{
+
+   .container{
+       width: 750px;
+   }
+}
+/* meduim */
+@media (min-width:992px)
+{
+
+   .container{
+       width: 970px;
+   }
+}
+/* larg */
+@media (min-width:1200px)
+{
+
+   .container{
+       width: 1170px;
+   }
+}
+
+
+
+ body{
+     background-image: url(../images/background.jpg);
+     background-attachment: fixed;
+     background-size: cover; 
+     font-family: 'Work Sans', sans-serif;
+ }
+
+/* end global rule  */
+
+.container {
+background-color:  #f3f4f3c9;
+
+margin: auto;
+margin-top: 15px;
+}
+
+/* property of icon  */
+
+.leaf{
+    padding: 20px;
+font-size: 64px;
+color:  yellowgreen;
+display: inline;
+
+}
+   /* end  */
+
+
+ .header .container{
+/* put space between iccons  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
